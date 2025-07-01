@@ -400,7 +400,7 @@ echo:
 call :_color2 %_White% "             " %_Green% "Create By Piash"
 echo:            ___________________________________________________ 
 echo:
-echo:					Github: https://github.com/lstprjct
+echo:               Github: https://github.com/hanmaoye
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] Activate
