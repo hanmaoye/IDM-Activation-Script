@@ -2,7 +2,7 @@
 一个开源工具，用于激活和重置试用期 [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
 # 免责声明
-我想澄清一下，我不是这个脚本的原作者。当我最初在 GitHub 上发布这个脚本时，主要作者还没有创建官方的 GitHub 仓库。因此，用户唯一的选择是访问官方论坛来下载和使用该脚本，后来他们创建了 GitHub 仓库。我创建这个仓库的主要目的是为用户简化流程。此外，作为对脚本原作者工作的尊重，我确保注明了他们。
+我想澄清一下，我不是这个脚本的原作者。我创建这个仓库的主要目的是为中文用户简化流程。此外，作为对脚本原作者工作的尊重，我确保注明了他们。
 
 # 特点
 * IDM 冻结试用及使用注册表键锁定方法进行激活
@@ -13,7 +13,7 @@
 
 # IAS 最新版本
 最新版本 - v1.2 (12-Feb-2024)
-[GitHub](https://github.com/lstprjct/IDM-Activation-Script)
+[GitHub](https://github.com/hanmaoye/IDM-Activation-Script)
 
 # 下载 / 如何使用它？
 首先安装最新的 [Internet Download Manager](https://www.internetdownloadmanager.com/). 如果有任何以前的破解补丁，请确保将其删除或卸载。
@@ -30,19 +30,19 @@
 * 复制粘贴下面的代码并按回车键
 
   ```shell
-  iex(irm is.gd/idm_reset_kuro)
+  iex(irm is.gd/idm_AS)
   ```
 
   或
 
   ```shell
-  iwr -useb https://raw.githubusercontent.com/hanmaoye/IDM-Activation-Script/main/IAS.ps1 | iex
+  iwr -useb https://raw.githubusercontent.com/hanmaoye/IDM-Activation-Script/main/IDM_AS.ps1 | iex
   ```
 
   或
 
   ```shell
-  iwr -useb https://is.gd/idm_reset_kuro | iex
+  iwr -useb https://is.gd/idm_AS | iex
   ```
 
 * 你将看到激活选项，请按照屏幕上的说明操作。
@@ -51,7 +51,7 @@
 
 # 方法 2 - Traditional
 
-* 从 [GitHub](https://github.com/lstprjct/IDM-Activation-Script/archive/refs/heads/main.zip)下载该文件
+* 从 [GitHub](https://github.com/hanmaoye/IDM-Activation-Script/archive/refs/heads/main.zip)下载该文件
 * 右键点击下载的压缩文件并解压
 * 右键点击下载的压缩文件并解压 `IAS.cmd`
 * 你将看到激活选项，并按照屏幕上的说明操作。
@@ -89,8 +89,6 @@
 
 # 排查故障
 * 浏览器集成修复: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
-* 如有错误，请在 [Telegram](https://t.me/ModByPiash) 上联系我们并附上错误截图。
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png)](https://t.me/ModByPiash)
 
 # 变更日志
 ## v1.2
@@ -113,7 +111,7 @@
 * 该脚本将在对CLSISD注册表项执行操作之前对其进行备份。
 * 增加了许多错误检查，以便更好地识别问题。
 ## v0.8
-* 将项目转移到 [Github](https://github.com/lstprjct/IDM-Activation-Script)
+* 将项目转移到 [Github](https://github.com/hanmaoye/IDM-Activation-Script)
 * 小错误修复
 * 添加信息以告知用户，当脚本删除大量空注册表项时，这些空注册表项正在被删除。
 
@@ -131,7 +129,7 @@
 | [abbodi1406](https://github.com/abbodi1406) | 编码方面的帮助                                               |
 | WindowsAddict                               | 最初的 [IAS](https://github.com/WindowsAddict/IDM-Activation-Script) 作者 |
 
-感谢国际会计准则（IAS）的用户们的关注、反馈与协助。
+感谢IAS的用户们的关注、反馈与协助。
 
 ------------------------------------------------------------------------
 
