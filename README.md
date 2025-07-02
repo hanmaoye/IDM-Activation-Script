@@ -30,19 +30,19 @@
 * 复制粘贴下面的代码并按回车键
 
   ```shell
-  iex(irm is.gd/idm_AS)
+  iex(irm is.gd/iAS)
   ```
 
   或
 
   ```shell
-  iwr -useb https://raw.githubusercontent.com/hanmaoye/IDM-Activation-Script/main/IDM_AS.ps1 | iex
+  iwr -useb https://raw.githubusercontent.com/hanmaoye/IDM-Activation-Script/main/IAS.ps1 | iex
   ```
 
   或
 
   ```shell
-  iwr -useb https://is.gd/idm_AS | iex
+  iwr -useb https://is.gd/iAS | iex
   ```
 
 * 你将看到激活选项，请按照屏幕上的说明操作。
